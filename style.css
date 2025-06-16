@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background-color: #2e7d32;
-    color: white;
+    background-color: #13099e;
+    color: rgb(255, 238, 0);
     text-align: center;
     padding: 20px 0;
 }
@@ -27,11 +27,10 @@ p {
     text-align: justify;
     margin: 20px auto;
     max-width: 1000px;
-    /* margem lateral */
 }
 
 .imagem-introducao,
-.infografico {
+.campo {
     display: block;
     margin: 20px auto;
     max-width: 40%;
@@ -46,7 +45,7 @@ p {
 
 #referencias h3,
 #referencias p {
-    padding-left: 0; /* remove qualquer recuo lateral */
+    padding-left: 0; 
 }
 
 footer {
@@ -55,12 +54,12 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    font-size: 12px;
+    font-size:  12px;
 }
 
 footer p {
-    margin: 0;             /* remove margem automática que pode estar deslocando */
-    display: inline-block; /* garante que o texto se comporte como um bloco centralizável */
+    margin: 0;             
+    display: inline-block; 
 }
 
 @media (max-width: 600px) {
@@ -77,7 +76,7 @@ footer p {
     }
 
     .imagem-introducao,
-    .infografico {
+    .campo {
         max-width: 90%;
     }
 
@@ -91,11 +90,10 @@ footer p {
     }
 }
 
-/* Tablets (601px até 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
 
     .imagem-introducao,
-    .infografico {
+    .campo {
         max-width: 60%;
     }
 
