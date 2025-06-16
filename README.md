@@ -4,7 +4,6 @@ Site abordando a conexão sentre campo e cidade; revisão histórica e cultura h
 
 # Recursos utilizados:
 - HTML
-
--CSS
+- CSS
 
 # Links:
