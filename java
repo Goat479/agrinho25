@@ -1,50 +1,46 @@
-```javascript
-const cartas = {
+const dados = {
 
-    campo: {
-        titulo: "🌾 O Campo",
-        texto: "O campo é responsável pela produção dos alimentos que chegam diariamente às mesas dos brasileiros. Além disso, fornece matérias-primas para diversas indústrias e contribui significativamente para a economia nacional."
-    },
+campo:{
+titulo:"🌾 O Campo",
+texto:"O campo é responsável pela produção de alimentos, matérias-primas e recursos essenciais para a sociedade."
+},
 
-    cidade: {
-        titulo: "🏙️ A Cidade",
-        texto: "A cidade concentra serviços, universidades, centros de pesquisa, hospitais e empresas que desenvolvem tecnologias utilizadas em diversos setores, inclusive na agricultura."
-    },
-
-    conexao: {
-        titulo: "🤝 Campo e Cidade",
-        texto: "Campo e cidade dependem um do outro. Enquanto o campo produz alimentos e matérias-primas, a cidade fornece tecnologia, conhecimento, infraestrutura e mercado consumidor. Essa parceria é essencial para o desenvolvimento sustentável."
-    }
+cidade:{
+titulo:"🏙 A Cidade",
+texto:"A cidade concentra serviços, tecnologia, educação e inovação que contribuem para o desenvolvimento rural."
+}
 
 };
 
-function abrirCarta(tipo){
+function abrirModal(tipo){
 
-    document.getElementById("tituloCarta").innerHTML =
-        cartas[tipo].titulo;
+document.getElementById("modal").style.display="block";
 
-    document.getElementById("textoCarta").innerHTML =
-        cartas[tipo].texto;
+document.getElementById("titulo").innerText=
+dados[tipo].titulo;
 
-    document.getElementById("modal").style.display =
-        "block";
+document.getElementById("texto").innerText=
+dados[tipo].texto;
+
 }
 
-function fecharCarta(){
+function fecharModal(){
 
-    document.getElementById("modal").style.display =
-        "none";
+document.getElementById("modal").style.display="none";
+
 }
 
-window.onclick = function(event){
+const reveals =
+document.querySelectorAll(".reveal");
 
-    const modal =
-        document.getElementById("modal");
+window.addEventListener("scroll",()=>{
 
-    if(event.target === modal){
+reveals.forEach(el=>{
 
-        modal.style.display =
-            "none";
-    }
+if(el.getBoundingClientRect().top < 700){
+
+el.classList.add("ativo");
+
 }
-```
+
+});
