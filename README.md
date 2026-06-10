@@ -6,7 +6,3 @@ Site abordando a conexão sentre campo e cidade; revisão histórica e cultura h
 - HTML
 - CSS
 
-# Links:
-https://agrinho25-puce.vercel.app/
-
-https://goat479.github.io/agrinho25/
