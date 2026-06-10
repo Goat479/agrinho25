@@ -1,6 +1,6 @@
-# Projeto Agrinho 2025
+# Projeto Agrinho 2026
 # Sobre: 
-Site abordando a conexão sentre campo e cidade; revisão histórica e cultura hodierna.
+Site abordando 
 
 # Recursos utilizados:
 - HTML
