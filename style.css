@@ -1,9 +1,9 @@
 /* Cores principais: amarelo e marrom */
 :root {
-    --amarelo: #FFD700;
+    --verde: #278f05;
     --marrom: #8B4513;
     --marrom-claro: #A0522D;
-    --amarelo-claro: #FFF8DC;
+    --preto: #090909;
 }
 
 body {
