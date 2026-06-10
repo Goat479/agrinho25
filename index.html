@@ -1,96 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2025 - Festejando a conexão campo-cidade</title>
+    <title>Agro e Indústrias Sustentáveis</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="New Piskel.gif">
 </head>
-
 <body>
     <header>
-        <h1> 🤠 A ligação campo-cidade 🏢 </h1>
+        <h1>Agro e Indústrias Sustentáveis</h1>
     </header>
 
-    <section id="introducao">
-        <h2>Revisão Histórica</h2>
-        <p>
-            O Brasil ser um país com forte cultura interiorana não é novidade, mas por que isso? No nosso país, por muito tempo
-            foi colônia portuguesa, com exploração de recursos naturais e atividade campeira predominantes. Mesmo com a
-            Revolução Industrial começando na segunda metade do século XVII, os investimentos industriais eram limitados, e
-            após a independência, muito controlados pelas oligarquias.
-        </p>
-        <img src="ali-arif-soydas-Lr49v_a5WOw-unsplash.jpg" class="imagem-introducao" alt="Imagem periferia do Brasil"
-            title="Imagem de uma periferia no Brasil. Foto de carlos-kenobi-ru47GU-zlSU-unsplash, 2025.">
-    </section>
+    <main>
+        <!-- Seção História do Agro -->
+        <section class="info-section">
+            <img src="agro.jpg" alt="História do Agro" class="info-img">
+            <h2>História do Agro</h2>
+            <p>O setor agrícola tem evoluído ao longo dos séculos, desde técnicas manuais até o uso de tecnologia de ponta, buscando sempre maior produtividade e sustentabilidade.</p>
+        </section>
 
-    <section id="desenvolvimento">
-        <h2>Cultura Hodierna</h2>
-        <p>
-            O sertanejo é um estilo musical interiorano que fez muito sucesso ao contar histórias do cotidiano na roça.
-            Hoje, possui ramificações modernas, como o Sertanejo Universitário. Na literatura, Monteiro Lobato criou Jeca
-            Tatu, que ganhou notoriedade com filmes de Amácio Mazzaropi. Festas juninas, comidas típicas e o hip-hop urbano
-            refletem a fusão da vida campo-cidade.
-        </p>
-        <img src="dan-meyers-IQVFVH0ajag-unsplash.jpg" class="campo" alt="campo"
-            title="Imagem mostrando lavoura de soja. Fonte: Unsplash, 2025.">
-    </section>
+        <!-- Seção Indústrias -->
+        <section class="info-section">
+            <img src="industria.jpg" alt="Indústrias" class="info-img">
+            <h2>Indústrias</h2>
+            <p>As indústrias passaram por transformações significativas, adotando práticas mais sustentáveis para reduzir o impacto ambiental, desde a produção até a logística.</p>
+        </section>
 
-    <!-- Flip Cards -->
-    <section id="flipcards">
-        <h2>Detalhes do Campo e Cidade</h2>
-        <div class="cards-container">
-            <div class="card" onclick="this.classList.toggle('flipped')">
-                <div class="card-inner">
-                    <div class="front">
-                        <h3>🌾 Agricultura</h3>
+        <!-- Flip Cards -->
+        <section class="cards-section">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Desenvolvimento Sustentável</h3>
                     </div>
-                    <div class="back">
-                        <p>A agricultura sustentável garante alimentos e preservação do solo e água.</p>
+                    <div class="flip-card-back">
+                        <p>Evolução agrícola sem prejudicar o meio ambiente: uso de técnicas como rotação de culturas, agricultura de precisão e redução de agrotóxicos.</p>
                     </div>
                 </div>
             </div>
-            <div class="card" onclick="this.classList.toggle('flipped')">
-                <div class="card-inner">
-                    <div class="front">
-                        <h3>🏙 Infraestrutura Urbana</h3>
-                    </div>
-                    <div class="back">
-                        <p>Cidades bem planejadas oferecem serviços e tecnologia para o crescimento rural.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card" onclick="this.classList.toggle('flipped')">
-                <div class="card-inner">
-                    <div class="front">
-                        <h3>🌱 Sustentabilidade</h3>
-                    </div>
-                    <div class="back">
-                        <p>Uso consciente de recursos, energia renovável e preservação ambiental no agronegócio.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- ODS -->
-    <section id="ods">
-        <h2>ODS relacionados ao Agronegócio Sustentável</h2>
-        <ul>
-            <li>🌾 Fome Zero e Agricultura Sustentável</li>
-            <li>💧 Água Potável e Saneamento</li>
-            <li>🌍 Ação contra a Mudança Global do Clima</li>
-            <li>🌱 Vida Terrestre</li>
-            <li>🏙 Cidades e Comunidades Sustentáveis</li>
-        </ul>
-    </section>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Desenvolvimento Sustentável</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Indústrias sustentáveis: adoção de energia limpa, reciclagem de resíduos e processos de produção menos poluentes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Desenvolvimento Sustentável</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Incentivo à produção sustentável: políticas públicas, certificações verdes e conscientização sobre consumo responsável.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ODS -->
+        <section class="ods-section">
+            <h2>ODS Relacionados ao Desenvolvimento Sustentável</h2>
+            <ul>
+                <li>ODS 2: Fome Zero e Agricultura Sustentável</li>
+                <li>ODS 7: Energia Acessível e Limpa</li>
+                <li>ODS 9: Indústria, Inovação e Infraestrutura</li>
+                <li>ODS 12: Consumo e Produção Responsáveis</li>
+                <li>ODS 13: Ação Contra a Mudança Global do Clima</li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 por Bruno Henrique Veríssimo</p>
+        <p>© Bruno Henrique Veríssimo</p>
     </footer>
-</body>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
