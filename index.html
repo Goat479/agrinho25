@@ -15,44 +15,76 @@
     </header>
 
     <section id="introducao">
-        <h2> Revisão Histórica </h2>
-        <p> O Brasil ser um país com forte cultura interiorana não é novidade para ninguém, mas... por que isso? No
-            sso país por muito tempo foi colônia portuguesa, exploração dos recursos naturais e a atividade campeira
-            eram predominantes e seus resultados eram quase totalmente levados a Portugal. Mesmo com a Revolução
-            Industrial
-            começando na segunda metade do século XVII, os investimentos industriais na região do atual país eram
-            baixíssimas
-            e mesmo após a independência, muito limitados pelas oligarquias. O pouco investimento urbano resultou em um
-            forte
-            predomínio rural, onde o chamado "povão", geralmente, se localizava. Uma das maiores mazelas da história do
-            país foi o
-            abrupto processo de urbanização no início do século XX, que por mal planejamento, levou a formação das
-            grandes periferias. </p>
+        <h2>Revisão Histórica</h2>
+        <p>
+            O Brasil ser um país com forte cultura interiorana não é novidade, mas por que isso? No nosso país, por muito tempo
+            foi colônia portuguesa, com exploração de recursos naturais e atividade campeira predominantes. Mesmo com a
+            Revolução Industrial começando na segunda metade do século XVII, os investimentos industriais eram limitados, e
+            após a independência, muito controlados pelas oligarquias.
+        </p>
         <img src="ali-arif-soydas-Lr49v_a5WOw-unsplash.jpg" class="imagem-introducao" alt="Imagem periferia do Brasil"
-            title="Imagem de uma periferia no Brasil. Foto de carlos-kenobi-ru47GU-zlSU-unsplash, 2025." srcset="">
+            title="Imagem de uma periferia no Brasil. Foto de carlos-kenobi-ru47GU-zlSU-unsplash, 2025.">
     </section>
-    <section id="desenvolvimento">
-        <h2> Cultura hodierna </h2>
-        <p> O sertanejo é um estilo musical interiorano que fez muito sucesso por contar
-            a trajetória em histórias engraçadas, dramáticas ou até românticas do cotidiano
-            na roça, hoje, possui ramificações com tons mais modernos, como o Sertanejo Universitário.
-            Indo para a literatura, Monteiro Lobato criou o personagem Jeca Tatu, uma caricatura do homem rural, porém,
-            seu personagem ganhou ainda mais notoriedade (principalmente entre o povão) com os filmes de Amácio
-            Mazzaropi,
-            que criava histórias cômicas baseadas no personagem. A influência do estilo de vida camponês se deu até no
-            calendário,
-            as festas juninas são comemorações desse estilo de vida que trazem consigo a dança tradicional, as roupas
-            típicas e as comidas
-            a base de milho (que são uma delícia). Já no âmbito urbano, movimentos como os do hip-hop e o grafite
-            divulgam de forma crítica e
-            artística a vida nas grandes cidades.</p>
-        <img src="dan-meyers-IQVFVH0ajag-unsplash.jpg" class="campo" alt="campo"
-            title="Imagem mostrando lavoura de soja. Fonte:Unsplash, 2025." srcset="">
-    </section>
-    <footer>
-        <p>&copy; 2025 por Bruno Henrique Veríssimo </p>
-    </footer>
 
+    <section id="desenvolvimento">
+        <h2>Cultura Hodierna</h2>
+        <p>
+            O sertanejo é um estilo musical interiorano que fez muito sucesso ao contar histórias do cotidiano na roça.
+            Hoje, possui ramificações modernas, como o Sertanejo Universitário. Na literatura, Monteiro Lobato criou Jeca
+            Tatu, que ganhou notoriedade com filmes de Amácio Mazzaropi. Festas juninas, comidas típicas e o hip-hop urbano
+            refletem a fusão da vida campo-cidade.
+        </p>
+        <img src="dan-meyers-IQVFVH0ajag-unsplash.jpg" class="campo" alt="campo"
+            title="Imagem mostrando lavoura de soja. Fonte: Unsplash, 2025.">
+    </section>
+
+    <!-- Flip Cards -->
+    <section id="flipcards">
+        <h2>Detalhes do Campo e Cidade</h2>
+        <div class="cards-container">
+            <div class="card" onclick="this.classList.toggle('flipped')">
+                <div class="front">
+                    <h3>🌾 Agricultura</h3>
+                </div>
+                <div class="back">
+                    <p>A agricultura sustentável garante alimentos e preservação do solo e água.</p>
+                </div>
+            </div>
+            <div class="card" onclick="this.classList.toggle('flipped')">
+                <div class="front">
+                    <h3>🏙 Infraestrutura Urbana</h3>
+                </div>
+                <div class="back">
+                    <p>Cidades bem planejadas oferecem serviços e tecnologia para o crescimento rural.</p>
+                </div>
+            </div>
+            <div class="card" onclick="this.classList.toggle('flipped')">
+                <div class="front">
+                    <h3>🌱 Sustentabilidade</h3>
+                </div>
+                <div class="back">
+                    <p>Uso consciente de recursos, energia renovável e preservação ambiental no agronegócio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ODS -->
+    <section id="ods">
+        <h2>ODS relacionados ao Agronegócio Sustentável</h2>
+        <ul>
+            <li>🌾 Fome Zero e Agricultura Sustentável</li>
+            <li>💧 Água Potável e Saneamento</li>
+            <li>🌍 Ação contra a Mudança Global do Clima</li>
+            <li>🌱 Vida Terrestre</li>
+            <li>🏙 Cidades e Comunidades Sustentáveis</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 por Bruno Henrique Veríssimo</p>
+    </footer>
 </body>
 
+<script src="script.js"></script>
 </html>
